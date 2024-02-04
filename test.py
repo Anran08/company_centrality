@@ -34,7 +34,7 @@ for node, degree in node_degree_dict.items():
 degree_centrality = nx.degree_centrality(G)
 
 # Calculate Eigenvector Centrality
-eigenvector_centrality = nx.eigenvector_centrality(G,max_iter=100)
+eigenvector_centrality = nx.h(G,max_iter=100)
 
 # Calculate Closeness Centrality
 closeness_centrality = nx.closeness_centrality(G)
